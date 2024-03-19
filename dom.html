@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color: yellow;
+        margin: 2px;
+        padding: 2px;
+        border: 2px solid red;
+    }
+    #job {
+        text-align: center;
+        background-color: violet;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid black;
+    }
+</style>
+<body>
+    <h1 id="job">welcome to js class</h1>
+    <h2>DOM</h2>
+    <h3>This is online class</h3>
+        <div id="abc">
+            <p>this is web tech class</p>
+            <p>here we willl learn html css and js</p>
+            <p>the couse will finish in 30 days</p>
+        </div>
+        <div class="container">
+            <p>this is a Dom file</p>
+        </div>
+    <button onclick="jspjob()">job</button>
+        <script>
+            function jspjob(){
+                var a=document.getElementById("job");
+                console.log(a);
+            }
+        </script>
+</body>
+</html>
